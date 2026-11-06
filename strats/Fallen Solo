@@ -1,0 +1,157 @@
+-- [ Settings ] --
+getgenv().AutoChain = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("DJ Booth", "Gatling Gun", "Trapper", "Mercenary Base", "Commander")
+TDS:Mode("Fallen")
+TDS:GameInfo("Lay By", {})
+
+TDS:Place("Trapper", -2.68829345703125, 242.99996948242188, 235.997802734375)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Place("Trapper", 2.668346405029297, 242.99996948242188, 235.98687744140625)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", -4.774838924407959, 245.82643127441406, 216.31094360351562)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", -7.318151473999023, 242.99998474121094, 226.68272399902344)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Place("Commander", -2.54730224609375, 242.99998474121094, 226.34881591796875)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 20 ] --
+TDS:Place("Trapper", -2.68829345703125, 242.99996948242188, 232.9578094482422)
+TDS:Place("Trapper", -2.68829345703125, 242.99998474121094, 229.91781616210938)
+TDS:Place("Trapper", 2.668346405029297, 242.99998474121094, 232.94688415527344)
+TDS:Place("Trapper", 2.668346405029297, 242.99998474121094, 229.90689086914062)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Trapper", 2.621204376220703, 242.99998474121094, 226.90261840820312)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 25 ] --
+TDS:Place("Mercenary Base", -2.5328235626220703, 242.99998474121094, 212.93600463867188)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+
+-- [ Wave 31 ] --
+TDS:Place("Mercenary Base", 2.5883121490478516, 242.99998474121094, 214.1622314453125)
+TDS:Place("Mercenary Base", 3.124556541442871, 243.00001525878906, 218.6704559326172)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Bear Traps")
+TDS:Upgrade(7)
+TDS:SetOption(7, "Trap", "Bear Traps")
+TDS:Upgrade(9)
+TDS:SetOption(9, "Trap", "Bear Traps")
+TDS:Upgrade(8)
+TDS:SetOption(8, "Trap", "Bear Traps")
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Upgrade(6)
+TDS:SetOption(6, "Trap", "Bear Traps")
+TDS:Upgrade(1)
+
+-- [ Wave 33 ] --
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Upgrade(5)
+TDS:Place("Commander", -2.5473012924194336, 243.1217498779297, 223.30882263183594)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Commander", -2.5473008155822754, 243.12281799316406, 220.26882934570312)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 38 ] --
+TDS:SetOption(4, "Track", "Red")
