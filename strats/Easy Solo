@@ -1,0 +1,160 @@
+-- [ Settings ] --
+getgenv().SellFarms = true
+getgenv().AutoChain = true
+getgenv().AutoMedic = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Soldier", "Shotgunner", "None", "None", "None")
+TDS:Mode("Easy")
+TDS:GameInfo("Gilded Path", {})
+
+TDS:Place("Soldier", -4.040863037109375, 1.0124882459640503, 18.31783103942871)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -1.031090259552002, 0.9666374921798706, 18.745452880859375)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Soldier", 1.9916954040527344, 0.9633865356445312, 19.068504333496094)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Place("Soldier", -4.398624420166016, 0.9760164022445679, 21.336706161499023)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Place("Soldier", -1.3888511657714844, 0.972986102104187, 21.764328002929688)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Soldier", 1.633934736251831, 0.9697351455688477, 22.087379455566406)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Shotgunner", -12.795187950134277, 1.0163873434066772, 25.931156158447266)
+
+-- [ Wave 9 ] --
+TDS:Place("Shotgunner", 7.518417835235596, 0.96007239818573, 27.941099166870117)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+
+-- [ Wave 10 ] --
+TDS:Place("Shotgunner", 6.993144989013672, 0.9615521430969238, 25.992305755615234)
+TDS:Place("Shotgunner", -10.79557991027832, 0.9938486814498901, 26.267305374145508)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Soldier", 1.2483711242675781, 0.9716017246246338, 25.102828979492188)
+TDS:Place("Soldier", -4.790496826171875, 0.9824005365371704, 24.351343154907227)
+TDS:Place("Soldier", -3.5040502548217773, 1.0101362466812134, 15.325602531433105)
+TDS:Place("Soldier", -0.4942770004272461, 0.9600323438644409, 15.753223419189453)
+TDS:Place("Soldier", 2.528508186340332, 0.9551036357879639, 16.076276779174805)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 14 ] --
+TDS:Place("Shotgunner", 6.200153827667236, 0.9515813589096069, 29.53976821899414)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Shotgunner", -8.766554832458496, 0.9919726848602295, 26.641096115112305)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 15 ] --
+TDS:Place("Shotgunner", 5.108430862426758, 0.9584885835647583, 26.772979736328125)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+
+-- [ Wave 18 ] --
+TDS:Place("Soldier", 5.5520758628845215, 0.9501973390579224, 16.39193344116211)
+TDS:Place("Soldier", 5.015262126922607, 0.9600321054458618, 19.38416290283203)
+TDS:Place("Soldier", 4.657500743865967, 0.9633954763412476, 22.403038024902344)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Soldier", -6.470367431640625, 0.9656521081924438, 14.660348892211914)
+TDS:Place("Soldier", -7.007181167602539, 0.9721786975860596, 17.652578353881836)
+TDS:Place("Soldier", -7.364941596984863, 0.978527307510376, 20.67145347595215)
+TDS:Place("Soldier", -7.756814956665039, 0.9849114418029785, 23.68609046936035)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+-- [ Wave 19 ] --
+TDS:Place("Soldier", 3.1457395553588867, 0.961431622505188, 28.385257720947266)
+TDS:Place("Soldier", 0.1395115852355957, 0.9726083278656006, 27.933382034301758)
+TDS:Place("Soldier", -2.3181910514831543, 0.9810088872909546, 26.17506980895996)
+TDS:Place("Soldier", -2.6242218017578125, 0.97960364818573, 29.199626922607422)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(29)
+TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(26)
+TDS:Upgrade(29)
+TDS:Upgrade(28)
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+TDS:Upgrade(23)
+TDS:Upgrade(19)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
