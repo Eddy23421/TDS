@@ -1,0 +1,224 @@
+-- [ Settings ] --
+getgenv().SellFarms = true
+getgenv().AutoChain = true
+getgenv().AutoMedic = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Cowboy", "Gatling Gun", "DJ Booth", "Mercenary Base", "Military Base")
+TDS:Mode("Trial")
+
+TDS:Place("Military Base", -6.953676223754883, 1.0261067152023315, -8.663326263427734)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+TDS:VoteSkip(2)
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:VoteSkip(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -20.21635627746582, 0.6000030636787415, -22.859216690063477)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", -17.677385330200195, 0.6000030636787415, -22.931486129760742)
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", -18.8842830657959, 0.6000027060508728, -20.696537017822266)
+TDS:Upgrade(4)
+
+-- [ Wave 7 ] --
+TDS:Place("Cowboy", -21.414968490600586, 0.600002646446228, -20.479209899902344)
+TDS:Upgrade(5)
+TDS:Place("Cowboy", -22.747041702270508, 0.6000030040740967, -22.641889572143555)
+TDS:Upgrade(6)
+
+-- [ Wave 8 ] --
+TDS:Place("Cowboy", -18.57075309753418, 0.6000022888183594, -18.175962448120117)
+TDS:Place("Cowboy", -21.057880401611328, 0.6000022292137146, -17.660409927368164)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:VoteSkip(9)
+
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Place("Gatling Gun", -17.310455322265625, 12.015122413635254, -13.33260726928711)
+
+-- [ Wave 12 ] --
+TDS:Place("DJ Booth", -15.183944702148438, 1.016155481338501, -19.877029418945312)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Track", "Green")
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Place("Mercenary Base", -13.558353424072266, 1.0161545276641846, -14.063243865966797)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Unit 1", "Riot Guard")
+TDS:SetOption(11, "Unit 2", "Riot Guard")
+TDS:SetOption(11, "Unit 3", "Riot Guard")
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 31 ] --
+TDS:Place("Military Base", -5.896257400512695, 1.000002145767212, -13.078466415405273)
+TDS:Place("Military Base", -5.129538059234619, 1.0000028610229492, -17.55325698852539)
+TDS:Place("Military Base", -7.1320343017578125, 1.0000035762786865, -21.583833694458008)
+
+-- [ Wave 32 ] --
+TDS:Place("Military Base", -11.239937782287598, 1.0000016689300537, -10.159841537475586)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(12)
+TDS:Upgrade(15)
+TDS:Upgrade(1)
+TDS:Upgrade(15)
+TDS:Upgrade(1)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Cowboy", 10.062098503112793, 1.04499089717865, -22.62920379638672)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 34 ] --
+TDS:Place("Mercenary Base", -13.299560546875, 1.0449873208999634, -4.967355728149414)
+TDS:Place("Mercenary Base", -17.839561462402344, 1.0339418649673462, -4.967355728149414)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Unit 1", "Riot Guard")
+TDS:SetOption(17, "Unit 2", "Riot Guard")
+TDS:SetOption(17, "Unit 3", "Riot Guard")
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetOption(18, "Unit 1", "Riot Guard")
+TDS:SetOption(18, "Unit 2", "Riot Guard")
+TDS:SetOption(18, "Unit 3", "Riot Guard")
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(17)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(1)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 39 ] --
+TDS:Place("Cowboy", 12.528464317321777, 1.0449904203414917, -22.18747329711914)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Place("Cowboy", 15.068464279174805, 1.021043062210083, -22.18747329711914)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Cowboy", 10.36343002319336, 1.0449934005737305, -25.118022918701172)
+TDS:Place("Cowboy", 12.869537353515625, 1.0260577201843262, -24.7044677734375)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(10, "Track", "Red")
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
