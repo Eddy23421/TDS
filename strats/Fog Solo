@@ -1,0 +1,206 @@
+-- [ Settings ] --
+getgenv().SellFarms = true
+getgenv().AutoChain = true
+getgenv().AutoMedic = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Military Base", "Trapper", "Mercenary Base", "Medic")
+TDS:Mode("Trial")
+
+TDS:Place("Trapper", -10.437382698059082, 2.093322277069092, 19.97762680053711)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", -17.973125457763672, 2.4937710762023926, 14.301651954650879)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -1.6945509910583496, 4.83449125289917, 14.154290199279785)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 20 ] --
+TDS:Place("Mercenary Base", -5.713010787963867, 2.044062376022339, 14.93366813659668)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Unit 1", "Riot Guard")
+TDS:SetOption(4, "Unit 2", "Riot Guard")
+TDS:SetOption(4, "Unit 3", "Riot Guard")
+
+-- [ Wave 22 ] --
+TDS:Place("Mercenary Base", 12.300533294677734, 2.994633674621582, -18.094457626342773)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(5)
+TDS:SetOption(5, "Unit 1", "Riot Guard")
+TDS:SetOption(5, "Unit 2", "Riot Guard")
+TDS:SetOption(5, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", 19.48752212524414, 3.112635612487793, -18.0679931640625)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(6)
+TDS:SetOption(6, "Unit 1", "Riot Guard")
+TDS:SetOption(6, "Unit 2", "Riot Guard")
+TDS:SetOption(6, "Unit 3", "Riot Guard")
+TDS:Place("Military Base", 9.655147552490234, 2.930229663848877, -13.397019386291504)
+
+-- [ Wave 25 ] --
+TDS:Place("Military Base", 14.186447143554688, 2.9418728351593018, -13.116076469421387)
+TDS:Place("Military Base", 20.016651153564453, 3.1737210750579834, -23.144744873046875)
+TDS:Place("Military Base", 24.556652069091797, 3.2860517501831055, -23.144744873046875)
+TDS:Place("Military Base", 10.81229019165039, 3.034325122833252, -22.38359832763672)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(5)
+TDS:SetOption(5, "Unit 1", "Field Medic")
+
+-- [ Wave 28 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
+
+-- [ Wave 30 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Place("Medic", -8.43964958190918, 2.014571189880371, 11.942317962646484)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:MedicSelect(12, 2)
+TDS:MedicSelect(12, 1)
+TDS:MedicSelect(12, 3)
+TDS:Upgrade(12)
+TDS:MedicSelect(12, 2)
+TDS:MedicSelect(12, 1)
+TDS:MedicSelect(12, 3)
+TDS:MedicSelect(12, 3)
+TDS:MedicSelect(12, 3)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(12)
+TDS:MedicSelect(12, 3)
+TDS:Upgrade(3)
+
+-- [ Wave 32 ] --
+TDS:Place("Trapper", -11.156469345092773, 0.9982426762580872, 39.5202522277832)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Trap", "Bear Traps")
+TDS:Place("Medic", -6.206194877624512, 0.9763505458831787, 42.84463119506836)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:MedicSelect(14, 13)
+TDS:Place("Trapper", -11.18895149230957, 0.9674308896064758, 49.10185623168945)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:SetOption(15, "Trap", "Bear Traps")
+TDS:MedicSelect(14, 15)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:MedicSelect(12, 3)
+
+-- [ Wave 37 ] --
+TDS:Place("Trapper", -11.143372535705566, 0.9980060458183289, 44.74199295043945)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:SetOption(16, "Trap", "Bear Traps")
+TDS:MedicSelect(14, 16)
+TDS:Place("Trapper", -6.726578235626221, 0.9804689288139343, 49.1351203918457)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Trap", "Bear Traps")
+TDS:MedicSelect(14, 17)
+TDS:Place("Trapper", -6.3641791343688965, 0.9499502778053284, 38.679954528808594)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetOption(18, "Trap", "Bear Traps")
+TDS:MedicSelect(14, 18)
+TDS:MedicSelect(14, 15)
+TDS:MedicSelect(14, 13)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
