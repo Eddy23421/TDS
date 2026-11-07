@@ -19,3 +19,5 @@ This repository is intended for TDS strategies only. No unrelated projects or sc
 
 **Game:** Tower Defense Simulator (Roblox)  
 **Repository:** TDS Strategies
+
+**Maintained by eddy36 c:**
