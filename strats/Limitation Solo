@@ -1,0 +1,194 @@
+-- [ Settings ] --
+getgenv().SellFarms = true
+getgenv().AutoChain = true
+getgenv().AutoMedic = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Cowboy", "Gatling Gun", "DJ Booth", "Mercenary Base", "Hacker")
+TDS:Mode("Trial")
+
+TDS:Place("Cowboy", 416.3880310058594, 53.42117691040039, -142.36398315429688)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(1)
+
+-- [ Wave 2 ] --
+TDS:VoteSkip(2)
+TDS:Place("Cowboy", 416.0634765625, 53.373268127441406, -139.8448028564453)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 413.6143493652344, 53.039398193359375, -140.54013061523438)
+TDS:Place("Cowboy", 413.61834716796875, 52.98310470581055, -143.0801239013672)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Place("Gatling Gun", 417.99835205078125, 56.04048156738281, -135.19859313964844)
+
+-- [ Wave 9 ] --
+TDS:Place("DJ Booth", 425.7908020019531, 49.45527648925781, -133.3640594482422)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:SetOption(6, "Track", "Green")
+
+-- [ Wave 10 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 13 ] --
+TDS:Place("Hacker", 368.08935546875, 54.565120697021484, -102.97016143798828)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 28 ] --
+TDS:Place("Mercenary Base", 425.7908020019531, 49.649513244628906, -138.154052734375)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Unit 1", "Riot Guard")
+TDS:SetOption(8, "Unit 2", "Riot Guard")
+TDS:SetOption(8, "Unit 3", "Riot Guard")
+TDS:Ability(7, "Hologram Tower")
+
+-- [ Wave 30 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:Place("Mercenary Base", 429.71270751953125, 49.453304290771484, -130.5210723876953)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Unit 1", "Riot Guard")
+TDS:SetOption(9, "Unit 2", "Riot Guard")
+TDS:SetOption(9, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", 429.6866760253906, 49.46319580078125, -146.20266723632812)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(10)
+TDS:SetOption(10, "Unit 1", "Field Medic")
+TDS:SetOption(10, "Unit 3", "Field Medic")
+TDS:SetOption(10, "Unit 2", "Field Medic")
+TDS:Upgrade(10)
+TDS:Place("Hacker", 417.974853515625, 52.12466049194336, -128.19436645507812)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(11, 2)
+TDS:SetOption(6, "Track", "Red")
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 36 ] --
+TDS:Ability(11, "Hologram Tower")
+TDS:Ability(11, "Hologram Tower", {towerPosition = Vector3.new(417.3876037597656, 55.94827651977539, -131.17236328125), towerToClone = 5})
+
+-- [ Wave 39 ] --
+TDS:Place("Cowboy", 370.8780517578125, 54.600032806396484, -103.05529022216797)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Cowboy", 373.417236328125, 54.81893539428711, -103.1195297241211)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Cowboy", 375.95367431640625, 54.77545928955078, -102.98504638671875)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Cowboy", 378.4936828613281, 54.71182632446289, -102.98504638671875)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Cowboy", 370.7737121582031, 54.565120697021484, -97.9471206665039)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Cowboy", 373.313720703125, 54.565120697021484, -97.9471206665039)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Cowboy", 375.8537292480469, 54.560768127441406, -97.9471206665039)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Cowboy", 378.39373779296875, 54.565120697021484, -97.9471206665039)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 40 ] --
+TDS:Ability(11, "Hologram Tower", {towerPosition = Vector3.new(415.3568115234375, 55.73835754394531, -130.886474609375), towerToClone = 5})
