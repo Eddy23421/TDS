@@ -1,0 +1,152 @@
+-- [ Settings ] --
+getgenv().SellFarms = true
+getgenv().AutoChain = true
+getgenv().AutoMedic = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Trapper", "Gatling Gun", "Mercenary Base", "DJ Booth", "None")
+TDS:Mode("Trial")
+
+TDS:Place("Trapper", 17.155662536621094, 1.000009536743164, 7.73450231552124)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Trapper", 11.69189453125, 1.000009536743164, 14.723495483398438)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", 1.8414194583892822, 4.793389320373535, 10.645190238952637)
+
+-- [ Wave 11 ] --
+TDS:Place("DJ Booth", 6.670547008514404, 1.000009536743164, 9.334196090698242)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Place("Mercenary Base", 1.7170915603637695, 1.000009536743164, 1.5858030319213867)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:SetOption(5, "Unit 1", "Riot Guard")
+TDS:SetOption(5, "Unit 2", "Riot Guard")
+TDS:SetOption(5, "Unit 3", "Riot Guard")
+
+-- [ Wave 26 ] --
+TDS:SetOption(2, "Trap", "Landmine")
+TDS:SetOption(1, "Trap", "Landmine")
+
+-- [ Wave 27 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(1)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 34 ] --
+TDS:Place("Trapper", 14.731894493103027, 1.000009536743164, 14.723495483398438)
+TDS:Place("Trapper", 14.6237211227417, 1.000009536743164, 9.432366371154785)
+TDS:Place("Trapper", 11.583721160888672, 1.0000100135803223, 9.432366371154785)
+TDS:Place("Trapper", 11.69189453125, 1.0000100135803223, 17.76349639892578)
+TDS:Place("Trapper", 6.491243362426758, 1.000009536743164, 14.748335838317871)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(7, "Trap", "Landmine")
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Landmine")
+TDS:SetOption(9, "Trap", "Landmine")
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:SetOption(6, "Trap", "Landmine")
+TDS:Upgrade(6)
+
+-- [ Wave 35 ] --
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:SetOption(2, "Trap", "Bear Traps")
+TDS:Upgrade(10)
+TDS:SetOption(10, "Trap", "Bear Traps")
+TDS:Upgrade(9)
+TDS:SetOption(9, "Trap", "Bear Traps")
+TDS:Upgrade(6)
+TDS:SetOption(6, "Trap", "Bear Traps")
+TDS:Upgrade(8)
+TDS:SetOption(8, "Trap", "Bear Traps")
+TDS:Upgrade(7)
+TDS:SetOption(7, "Trap", "Bear Traps")
+
+-- [ Wave 36 ] --
+TDS:Place("Mercenary Base", 5.739972114562988, 1.0000100135803223, -0.5184860229492188)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 37 ] --
+TDS:Place("Mercenary Base", 10.15383243560791, 1.000009536743164, -1.4306583404541016)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Unit 1", "Riot Guard")
+TDS:SetOption(12, "Unit 2", "Riot Guard")
+TDS:SetOption(12, "Unit 3", "Riot Guard")
+TDS:SetOption(11, "Unit 1", "Riot Guard")
+TDS:SetOption(11, "Unit 2", "Riot Guard")
+TDS:SetOption(11, "Unit 3", "Riot Guard")
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 40 ] --
+TDS:SetOption(4, "Track", "Red")
