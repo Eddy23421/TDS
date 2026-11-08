@@ -1,0 +1,199 @@
+-- [ Settings ] --
+getgenv().SellFarms = true
+getgenv().AutoChain = true
+getgenv().AutoMedic = true
+getgenv().SupportCaravan = true
+getgenv().AutoDJ = true
+getgenv().AutoMercenary = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Trapper", "Gatling Gun", "DJ Booth", "Mercenary Base", "Electroshocker")
+TDS:Mode("Trial")
+
+TDS:Place("Trapper", -21.515243530273438, 1.0249813795089722, 7.005719184875488)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Place("Electroshocker", -17.2098388671875, 1.024970293045044, 2.516831398010254)
+TDS:Upgrade(2)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+TDS:Place("Gatling Gun", -30.58997917175293, 4.8033833503723145, -3.7690601348876953)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(3)
+TDS:Place("DJ Booth", -18.39743995666504, 1.0249890089035034, -2.7121763229370117)
+TDS:SetOption(4, "Track", "Green")
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Place("Electroshocker", -23.45073699951172, 1.0249866247177124, -17.324499130249023)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(4)
+TDS:Place("Trapper", -23.94194221496582, 1.0249918699264526, -20.324552536010742)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:SetOption(6, "Trap", "Bear Traps")
+
+-- [ Wave 25 ] --
+TDS:Place("Trapper", -26.786996841430664, 1.0249868631362915, -19.253450393676758)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:SetOption(7, "Trap", "Bear Traps")
+
+-- [ Wave 26 ] --
+TDS:SetOption(7, "Trap", "Landmine")
+TDS:Upgrade(3)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 30 ] --
+TDS:Place("Mercenary Base", -28.50612449645996, 1.0249828100204468, 0.20574283599853516)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Unit 1", "Riot Guard")
+TDS:SetOption(8, "Unit 2", "Riot Guard")
+TDS:SetOption(8, "Unit 3", "Riot Guard")
+TDS:Upgrade(8)
+
+-- [ Wave 31 ] --
+TDS:Place("Trapper", -22.46759796142578, 1.0249894857406616, -11.486041069030762)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:SetOption(9, "Trap", "Bear Traps")
+
+-- [ Wave 32 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:SetOption(1, "Trap", "Bear Traps")
+TDS:Place("Mercenary Base", -28.506092071533203, 1.02498197555542, 4.745741844177246)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:SetOption(10, "Unit 1", "Riot Guard")
+TDS:SetOption(10, "Unit 2", "Riot Guard")
+TDS:SetOption(10, "Unit 3", "Riot Guard")
+TDS:Place("Mercenary Base", -22.965614318847656, 1.0249704122543335, 3.504216194152832)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:SetOption(11, "Unit 1", "Riot Guard")
+TDS:SetOption(11, "Unit 2", "Riot Guard")
+TDS:SetOption(11, "Unit 3", "Riot Guard")
+TDS:Upgrade(11)
+TDS:Place("Trapper", -19.427597045898438, 1.0249954462051392, -11.486041069030762)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(12, "Trap", "Bear Traps")
+
+-- [ Wave 34 ] --
+TDS:Place("Trapper", -21.79233741760254, 1.0249879360198975, -22.474157333374023)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:SetOption(13, "Trap", "Bear Traps")
+TDS:Place("Trapper", -23.079811096191406, 1.02498459815979, -8.49530029296875)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:SetOption(14, "Trap", "Bear Traps")
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 35 ] --
+TDS:SetOption(4, "Track", "Red")
+TDS:Place("Electroshocker", -28.523962020874023, 1.0249930620193481, -15.163856506347656)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Electroshocker", -31.18650245666504, 1.0249887704849243, -13.696725845336914)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Electroshocker", -28.534366607666016, 1.024994134902954, -12.12387466430664)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Electroshocker", -32.34986114501953, 1.0249978303909302, -16.505319595336914)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 36 ] --
+TDS:Place("Electroshocker", -26.292072296142578, 1.0249909162521362, -22.252891540527344)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 37 ] --
+TDS:SetOption(7, "Trap", "Bear Traps")
